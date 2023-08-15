@@ -8,7 +8,7 @@ This repository shows a possible integration with the DeFi protocol Lyra and it'
 #### Folders
 
 * **contracts**
-    Contains the 'Strands' contract used in the solution
+    Contains the 'Strands' contract used in the solution and two test contracts
 
 * **test**
     Contains the test scripts to test the requested functionalities
@@ -19,6 +19,7 @@ This repository shows a possible integration with the DeFi protocol Lyra and it'
     
     **Part 2**
     * Wrote a smart contract with a buyStraddle function where you can input the size of the buy and strikeId. The function should take stable coin from the msg.sender and buy both a call and a put of that strikeId in an atomic transaction.
+
     **Part 3**
     * Add another test in your test script to use Lyra local test system to test your buyStraddle function
 
@@ -28,14 +29,14 @@ This repository shows a possible integration with the DeFi protocol Lyra and it'
     Contains the main solution code to implement Part 2 of the requested requirement.
     Include a description in the comments.
 
-* **src/contracts/ERC20_Token.sol**
-    This contract inherits from the OpenZeppelin ERC20 contract to emulate the operation of a compatible ERC20 token, in order to test the functionalities requested for the test.
+* **src/contracts/TestContract.sol** and **src/contracts/TestContract2.sol**
+    These contracts are for testing purposes only
 
 * **test/lyraLocalEnvironment.test.js**
     Contains the tests on the requested functionalities for Part 1.
 
 * **test/strandsContract.test.js**
-    Contains the tests on the requested functionalities for Part 3.
+    Contains the tests on the requested functionalities for Parts 2 and 3.
 
 ### Used libraries
 
