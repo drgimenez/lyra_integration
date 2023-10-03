@@ -31,7 +31,7 @@ describe('Lyra local environment Test', () => {
         let contractABIPath = path.resolve(process.cwd(), "artifacts/@lyrafinance/protocol/contracts/OptionToken.sol/OptionToken.json");
         let contractArtifact = JSON.parse(fs.readFileSync(contractABIPath, 'utf8'));
         optionTokenContract  = new ethers.Contract(optionTokenContractAddress, contractArtifact.abi, signer);
-
+        
         console.log('------------------------------------------------------------------------');
         console.log('- Lyra local environment Test');
         console.log('------------------------------------------------------------------------');

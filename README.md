@@ -1,7 +1,7 @@
 # Lyra Integration
 ##### Author: David Gimenez Gutierrez
 
-This repository shows a possible integration with the DeFi protocol Lyra and it's part of the admission test for the position "Senior Smart Contract Developer at Strands"
+This repository shows a possible integration with the DeFi protocol Lyra 
 
 ### Main project information
 
